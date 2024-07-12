@@ -69,7 +69,7 @@ Add the following lines:
 @xset s off
 @xset -dpms
 @xset s noblank
-@chromium-browser --noerrdialogs --disable-infobars --kiosk https://api.akdeniz-wilhelmshaven.de/?menuCard=lunch
+@chromium-browser --noerrdialogs --disable-infobars --kiosk https://your.web.com
 @unclutter -idle 0
 ```
 
