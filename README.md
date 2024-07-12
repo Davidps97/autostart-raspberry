@@ -40,7 +40,7 @@ After=graphical.target
 
 [Service]
 User=definition
-Environment=XAUTHORITY=/home/definition/.Xauthority
+Environment=XAUTHORITY=/your/route/.Xauthority
 Environment=DISPLAY=:0
 ExecStart=/usr/bin/chromium-browser --noerrdialogs --disable-infobars --kiosk https://your.web.com
 Restart=on-abort
