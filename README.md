@@ -65,7 +65,7 @@ sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
 
 Add the following lines:
 
-```bash
+```ini
 @xset s off
 @xset -dpms
 @xset s noblank
