@@ -33,7 +33,7 @@ sudo nano /etc/systemd/system/kiosk.service
 
 Add the following code to the service file:
 
-```bash
+```ini
 [Unit]
 Description=Chromium Kiosk
 After=graphical.target
